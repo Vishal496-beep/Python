@@ -107,3 +107,6 @@ its a method in Python that allows you to concatenate a list of strings into a s
 
 # lambda function
 -> its a small anonymous function in Python that can have any number of arguments but can only have one expression. Lambda functions are defined using the lambda keyword, followed by the arguments and a colon, and then the expression that is evaluated and returned when the function is called. Lambda functions are often used for short, simple functions that are not intended to be reused elsewhere in the code. Understanding how to use lambda functions in Python can help you write more concise and efficient code when you need to create small, one-off functions.
+
+# *args and **kwargs
+-> *args and **kwargs are special syntax in Python that allow you to pass a variable number of arguments to a function. *args is used to pass a variable number of non-keyword arguments, while **kwargs is used to pass a variable number of keyword arguments. When you use *args in a function definition, it collects all the non-keyword arguments into a tuple. When you use **kwargs, it collects all the keyword arguments into a dictionary. Understanding how to use *args and **kwargs in Python is important for writing flexible functions that can handle different numbers and types of arguments effectively.

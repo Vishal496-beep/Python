@@ -74,3 +74,36 @@ its a method in Python that allows you to concatenate a list of strings into a s
 
  # .get
  -> its a method in Python that allows you to retrieve the value associated with a specified key in a dictionary. The syntax for the get method is dictionary.get(key, default), where key is the key you want to retrieve the value for and default is an optional value that will be returned if the key is not found in the dictionary. Understanding how to use the get method in Python is important for manipulating and processing dictionaries effectively, especially when you want to avoid KeyError exceptions when trying to access keys that may not exist in the dictionary.
+
+# for loop
+ -> its a control flow statement in Python that allows you to iterate over a sequence of elements,      such as a list, tuple, or string. The syntax for a for loop is for variable in iterable: followed by an indented block of code that will be executed for each element in the iterable. For example, you can use a for loop to iterate over a list of numbers and print each number to the console. Understanding how to use for loops in Python is important for manipulating and processing collections of data effectively.
+
+ # dictonary comprehension
+ -> its a concise way to create dictionaries in Python. It allows you to generate a new dictionary by applying an expression to each item in an iterable, such as a list or range. The syntax for dictionary comprehension is {key_expression: value_expression for item in iterable if condition}, where key_expression is the expression that generates the keys, value_expression is the expression that generates the values, and condition is an optional filter that determines which items from the iterable are included in the resulting dictionary. Dictionary comprehensions can make your code more readable and efficient when creating new dictionaries based on existing data.
+
+ # squared 
+ -> its a mathematical operation that multiplies a number by itself. In Python, you can calculate the square of a number using the exponentiation operator (**). For example, to calculate the square of 5, you can use the expression 5 ** 2, which will return 25. Understanding how to calculate squares in Python is important for performing mathematical operations and working with numerical data effectively.
+
+ # fromKeys
+ -> its a method in Python that allows you to create a new dictionary from a sequence of keys, with a specified value for each key. The syntax for the fromkeys method is dict.fromkeys(keys, value), where keys is an iterable containing the keys for the new dictionary and value is the value that will be assigned to each key. If no value is specified, the default value will be None. Understanding how to use the fromkeys method in Python is important for creating dictionaries efficiently when you have a list of keys and want to assign a common value to them.
+
+ # tuple
+ -> its a built-in data type in Python that represents an ordered collection of elements. Tuples are immutable, meaning you cannot add, remove, or change elements in a tuple after it is created. Tuples can contain elements of different data types, including other tuples. Understanding how to work with tuples in Python is important for manipulating and processing collections of data effectively, especially when you want to ensure that the data remains unchanged throughout your code.
+
+ # list and tuple m difference
+-> The main difference between a list and a tuple in Python is that lists are mutable, while tuples are immutable. This means that you can modify a list by adding, removing, or changing elements, while you cannot modify a tuple after it is created. Additionally, lists are defined using square brackets [], while tuples are defined using parentheses (). Understanding the difference between lists and tuples is important for choosing the appropriate data structure for your needs and ensuring that your code behaves as expected when working with collections of data.
+
+# __next__ 
+-> its a special method in Python that is used to retrieve the next item from an iterator. When you call the next() function on an iterator, it internally calls the __next__() method to get the next item. If there are no more items to retrieve, the __next__() method raises a StopIteration exception. Understanding how to use the __next__() method in Python is important for working with iterators and creating custom iterable objects effectively.
+
+# readline 
+-> its a method in Python that allows you to read a single line from a file. The syntax for the readline method is file.readline(), where file is the file object you want to read from. Each time you call readline, it will return the next line from the file as a string, including the newline character at the end of the line. Understanding how to use the readline method in Python is important for working with files and processing text data effectively.
+ 
+# function definition
+-> its a block of reusable code in Python that performs a specific task. Functions are defined using    the def keyword, followed by the function name and parentheses that may contain parameters. The code block within the function is indented, and the function can return a value using the return statement. Understanding how to define and use functions in Python is important for organizing your code, improving readability, and promoting code reuse.
+
+# polymorphism
+-> its a programming concept that allows objects of different classes to be treated as objects of a common superclass. In Python, polymorphism is achieved through method overriding, where a subclass can provide its own implementation of a method that is already defined in its superclass. This allows you to use the same method name to perform different tasks based on the type of object that is calling the method. Understanding polymorphism in Python is important for writing flexible and extensible code that can work with different types of objects without needing to know their specific classes.
+
+# lambda function
+-> its a small anonymous function in Python that can have any number of arguments but can only have one expression. Lambda functions are defined using the lambda keyword, followed by the arguments and a colon, and then the expression that is evaluated and returned when the function is called. Lambda functions are often used for short, simple functions that are not intended to be reused elsewhere in the code. Understanding how to use lambda functions in Python can help you write more concise and efficient code when you need to create small, one-off functions.

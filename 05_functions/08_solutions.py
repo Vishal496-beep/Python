@@ -1,4 +1,7 @@
-def kwargs(name, power):
-    print("Name: ", name , "Power: ", power)
+def sol(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
 
-kwargs( power="lazer", name="shaktiman")
+sol(name='ironman', power='infinity stone')
+sol(name='captain')
+sol(name='enemy', power='infinity stone', enemy='thanos', ally='spiderman')

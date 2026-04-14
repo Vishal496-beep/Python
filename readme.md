@@ -144,3 +144,22 @@ name = "Alice"
 
 # polymorphism
  polymorphism is the ability of an object to take on many forms. It allows us to use a single interface to represent different types of objects. In Python, we can achieve polymorphism through method overriding and duck typing. 
+ # static
+    methods are methods that belong to a class rather than an instance of the class. They are defined using the @staticmethod decorator and do not have access to the instance (self) or class (cls) variables. Static methods are typically used for utility functions that do not require access to instance or class data. Understanding how to use static methods in Python is important for organizing your code and providing functionality that is related to the class but does not depend on instance-specific data.
+
+# @staticmethod
+ is a decorator in Python that is used to define a static method within a class. A static method is a method that belongs to the class rather than an instance of the class. It does not have access to the instance (self) or class (cls) variables and is typically used for utility functions that do not require access to instance or class data. To define a static method, you can use the @staticmethod decorator above the method definition. For example:
+class MyClass:
+    @staticmethod
+    def static_method():
+        print("This is a static method.")   
+
+# @property
+ is a built-in decorator in Python that allows you to define a method as a property of a class. A property is a special kind of attribute that is computed on-the-fly when accessed. By using the @property decorator, you can define a method that can be accessed like an attribute, without needing to call it as a function. This allows you to create read-only attributes or to perform additional processing when an attribute is accessed. For example:
+class MyClass:
+    def __init__(self, value):
+        self._value = value
+
+    @property
+    def value(self):
+        return self._value  

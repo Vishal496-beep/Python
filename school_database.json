@@ -1,0 +1,17 @@
+{
+    "students": [
+        {
+            "name": "vishal",
+            "age": 15,
+            "email": "vishak@gmail.com",
+            "roll_no": "1",
+            "grades": {
+                "maths": 90.0
+            },
+            "registered_date": "2026-06-11 10:10:10"
+        }
+    ],
+    "teachers": [],
+    "classes": [],
+    "attendance": []
+}
